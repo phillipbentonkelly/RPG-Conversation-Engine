@@ -1,0 +1,24 @@
+{
+	"dialog": [
+		{ "Princes Ovelia": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation." },
+		{ "Knight": "Lady Ovelia, it is time." },
+		{ "Princes Ovelia": "I'll not be much longer, Agrias." },
+		{ "Agrias": "Your escort has already arrived, Majesty." },
+		{ "Elder Priest": "Please, heed the good lady's words, Highness. You must hurry." },
+		{ "Swordsman": "Still in here, are you? It's been the better part of an hour!" },
+		{ "Agrias": "Gaffgarion, you forget yourself, ser! You are in the presence of the princess!" },
+		{ "Gaffgarion": "Mayhap bowed heads would less offend. You would do well to waste less time on idle pleasantries." },
+		{ "Agrias": "I see even the noble Order of the Northern Sky cannot rid itself of vulgar knaves." },
+		{ "Gaffgarion": "A guard captain in these rain-sodden hinterlands ought not expect chivalry. We are in the employ of the Order, not of it. Our pay des not cover trite courtesies to the likes of you." },
+		{ "Agrias": "Guard your tongue!" },
+		{ "Princes Ovelia": "Enough. Let us be on our way." },
+		{ "Elder Priest": "The Father watch over you, child." },
+		{ "Ovelia": "And you, Elder." },
+		{ "Knight": "Milady! The enemy is upon us!" },
+		{ "Elder Priest": "Duke Goltanna's men?" },
+		{ "Gaffgarion": "We are paid for this. Time to earn our keep. What is it, Ramza? You above getting paid to do a job?" },
+		{ "Ramza": "I'm a knight no longer. Just another sellsword." },
+		{ "Gaffgarion": "Right then. To battle!" },
+		{ "Ovelia": "Deliver us, O Lord..." }
+	]
+}
