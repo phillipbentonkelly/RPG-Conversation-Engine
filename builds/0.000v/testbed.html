@@ -13,9 +13,17 @@
         <script>
             var localScript = {
                 dialog: [
-                    { "Princes Ovelia": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation." },
-                    { "Knight": "Lady Ovelia, it is time." },
-                    { "Princes Ovelia": "I'll not be much longer, Agrias." },
+                    {
+                        "characterId": 11,
+                        "characterName": "Princes Ovelia",
+                        "lines": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation."
+                    },
+                    {
+                        "characterId": 111,
+                        "characterName": "Knight",
+                        "lines": "Lady Ovelia, it is time."
+                    }
+                    /*{ "Princes Ovelia": "I'll not be much longer, Agrias." },
                     { "Agrias": "Your escort has already arrived, Majesty." },
                     { "Elder Priest": "Please, heed the good lady's words, Highness. You must hurry." },
                     { "Swordsman": "Still in here, are you? It's been the better part of an hour!" },
@@ -32,11 +40,15 @@
                     { "Gaffgarion": "We are paid for this. Time to earn our keep. What is it, Ramza? You above getting paid to do a job?" },
                     { "Ramza": "I'm a knight no longer. Just another sellsword." },
                     { "Gaffgarion": "Right then. To battle!" },
-                    { "Ovelia": "Deliver us, O Lord..." }
+                    { "Ovelia": "Deliver us, O Lord..." }*/
                 ]
             };
 
             console.log(localScript);
+
+            for(var i = 0; i < localScript.dialog.length; i++){
+                console.log(localScript.dialog[i]);
+            }
         </script>
 
 	</head>
