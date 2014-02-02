@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>RPG Conversation Engine - Scene 001</title>
+
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+
+        <link href="scene001.css" type="text/css" rel="stylesheet" />
+
+        <script type="text/javascript" src="../../resources/jquery/jquery.1.8.2.min.js"></script>
+        <script src="RPGcEngine.js"></script>
+        <script src="scenes/scene1.js"></script>
+        <script>
+            function sceneResponse(data){
+                console.log(arguments);
+
+                return data;
+            }
+        </script>
+
+        <script>
+            var models = {};
+            var config = {
+                "scriptLocation": "scenes/scene1.json",
+                "scriptContent": scene1,
+                "typeDialog": true,
+                "onLineCompletion": "userEvent",
+                "textSpeed": 100,
+                "framerate": 24,
+                "sceneCanvas": "#stage"
+            };
+
+            $(function(){
+                models = {
+                    RPGcEngine: RPGcEngine( config, '#stage' )
+                };
+                models.RPGcEngine.playScript();
+            });
+        </script>
+        <script>
+            $(function(){
+                /*var charSpeechBox_11 = $('[character="characterId_11"]');
+                var char_11 = $('#characterId_11');
+
+                console.log(char_11);
+
+                console.log(Math.round(char_11.offset().left));
+                console.log(Math.round(char_11.offset().top));
+
+                    charSpeechBox_11.css('top', Math.round(char_11.position().top) + char_11.height() + 10);
+                    charSpeechBox_11.css('left', Math.round(char_11.position().left) - (charSpeechBox_11.width()/2));
+
+                console.log(char_11.css('top'));
+                console.log(char_11.css('left'));*/
+            })
+        </script>
+	</head>
+	<body>
+		<div id="stage">
+            <div id="characterId_11" class="characters"></div>
+            <div id="characterId_111" class="characters"></div>
+
+            <!--
+            <div id="rpgcEngine_dialogBox_11" class="rpgcEngine_dialogBox" character="characterId_11">
+                <img src="" class="profile" />
+                <div class="dialogCol col">
+                    O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation.
+                </div>
+            </div>
+
+            <div id="rpgcEngine_dialogBox_111" class="rpgcEngine_dialogBox">
+                <img src="" />
+                <div class="dialogCol col">
+                    Lady Ovelia, it is time.
+                </div>
+            </div>
+            -->
+        </div>
+	</body>
+</html>

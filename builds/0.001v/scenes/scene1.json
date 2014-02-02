@@ -4,12 +4,99 @@ sceneResponse(
 	        {
 	            "characterId": 11,
 	            "characterName": "Princes Ovelia",
-	            "lines": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation."
+	            "lines": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
 	        },
 	        {
 	            "characterId": 111,
 	            "characterName": "Knight",
-	            "lines": "Lady Ovelia, it is time."
+	            "lines": "Lady Ovelia, it is time.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 112,
+	            "characterName": "Knight",
+	            "lines": "I'll not be much longer, Agrias.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 12,
+	            "characterName": "Agrias",
+	            "lines": "Your escort has already arrived, Majesty.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 104,
+	            "characterName": "Priest",
+	            "lines": "Please, heed the good lady's words, Highness. You must hurry.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 14,
+	            "temporaryName": "Swordman",
+	            "characterName": "Gaffgarion",
+	            "lines": "Still in here, are you? It's been the better part of an hour!",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 12,
+	            "characterName": "Agrias",
+	            "lines": "Gaffgarion, you forget yourself, ser! You are in the presence of the princess!",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 14,
+	            "characterName": "Gaffgarion",
+	            "lines": "Mayhap bowed heads would less offend. You would do well to waste less time on idle pleasantries.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 12,
+	            "characterName": "Agrias",
+	            "lines": "I see even the noble Order of the Northern Sky cannot rid itself of vulgar knaves.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 14,
+	            "characterName": "Gaffgarion",
+	            "lines": "A guard captain in these rain-sodden hinterlands ought not expect chivalry. We are in the employ of the Order, not of it. Our pay des not cover trite courtesies to the likes of you.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 12,
+	            "characterName": "Agrias",
+	            "lines": "Guard your tongue!",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
+	        },
+	        {
+	            "characterId": 111,
+	            "characterName": "Princes Ovelia",
+	            "lines": "Enough. Let us be on our way.",
+	            "onFinish": {
+	                "type": "userEvent"
+	            }
 	        }
 	    ]
 	}

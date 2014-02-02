@@ -1,0 +1,80 @@
+{
+    "scene": [
+        {
+            "characterId": 11,
+            "characterName": "Princes Ovelia",
+            "lines": "O Father, abandon not Your wayward children of Ivalice, but deliver us from our sins, that we might know salvation."
+        },
+        {
+            "characterId": 111,
+            "characterName": "Knight",
+            "lines": "Lady Ovelia, it is time."
+        },
+        {
+            "characterId": 112,
+            "characterName": "Knight",
+            "lines": "I'll not be much longer, Agrias."
+        },
+        {
+            "characterId": 12,
+            "characterName": "Agrias",
+            "lines": "Your escort has already arrived, Majesty."
+        },
+        {
+            "characterId": 104,
+            "characterName": "Elder",
+            "lines": "Please, heed the good lady's words, Highness. You must hurry."
+        },
+        {
+            "characterId": 14,
+            "temporaryName": "Swordman",
+            "characterName": "Gaffgarion",
+            "lines": "Still in here, are you? It's been the better part of an hour!"
+        },
+        {
+            "characterId": 12,
+            "characterName": "Agrias",
+            "lines": "Gaffgarion, you forget yourself, ser! You are in the presence of the princess!"
+        },
+        {
+            "characterId": 14,
+            "characterName": "Gaffgarion",
+            "lines": "Mayhap bowed heads would less offend. You would do well to waste less time on idle pleasantries."
+        },
+        {
+            "characterId": 12,
+            "characterName": "Agrias",
+            "lines": "I see even the noble Order of the Northern Sky cannot rid itself of vulgar knaves."
+        },
+        {
+            "characterId": 14,
+            "characterName": "Gaffgarion",
+            "lines": "A guard captain in these rain-sodden hinterlands ought not expect chivalry. We are in the employ of the Order, not of it. Our pay des not cover trite courtesies to the likes of you."
+        },
+        {
+            "characterId": 12,
+            "characterName": "Agrias",
+            "lines": "Guard your tongue!"
+        },
+        {
+            "characterId": 11,
+            "characterName": "Princes Ovelia",
+            "lines": "Enough. Let us be on our way."
+        },
+        {
+            "characterId": 104,
+            "characterName": "Elder",
+            "lines": "The Father watch over you, child."
+        },
+        {
+            "characterId": 11,
+            "characterName": "Princes Ovelia",
+            "lines": "And you, Elder."
+        },
+        {
+            "characterId": 11,
+            "characterName": "Princes Ovelia",
+            "lines": "And you, Elder."
+        }
+    ]
+}
