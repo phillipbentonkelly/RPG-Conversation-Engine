@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+.row{
+	clear: both;
+	min-height: 1px;
+	overflow: hidden;
+}
+	.col{
+		float: left;
+	}
+	.colRight{
+		float: right;
+	}
+
+
+	#stage{
+		width: 641px;
+		height: 468px;
+		border: 3px solid #ccc;
+
+		margin: auto;
+		margin-top: 10px;
+		position: relative;
+
+		background: url(graphics/image001.png) top left no-repeat;
+
+	}
+
+
+	.rpgcEngine_dialogWrapper{
+		display: block;
+
+		max-width: 55%;
+		max-height: 30%;
+		position: absolute;
+
+		min-width: 40%;
+		min-height: 6%;
+			
+		overflow: hidden;
+		clear: both;
+		
+		border: 1px solid #f0c;
+	}
+		.rpgcEngine_dialogBox {
+			display: block;
+			opacity: 0.0;
+
+			max-width: 55%;
+			/*max-height: 25%;*/
+			position: absolute;
+
+			min-width: 40%;
+			min-height: 1%;
+			
+			overflow: hidden;
+			clear: both;
+
+			font-family: 'Aldrich', sans-serif;
+			font-size: 80%;
+		}
+			.dialogArrow_Up, .dialogArrow_Down{
+				width: 0px;
+				height: 0px;
+			}
+				.dialogArrow_Up{
+					border-style: solid;
+					border-width: 0 20px 7px 20px;
+					border-color: transparent transparent #a59a84 transparent;
+					border-radius: 4px;
+				}
+				.dialogArrow_Down{
+					border-style: solid;
+					border-width: 7px 10px 0 10px;
+					border-color: #a59a84 transparent transparent transparent;
+				}
+			.wrapperContainer{
+				background: #a59a84;
+				border: 1px solid #a59a84;
+
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;/**/
+			}
+			.innerContainer{
+				padding: 1% 1% 1% 1%;
+			}
+			.characters{
+				display: block;
+				width: 10%;
+				height: 17%;
+
+				border: 0px dotted red;
+			}
+				.characters:hover{
+					border: 1px dotted red;
+				}
+			.rpgcEngine_dialogBox img.profile{
+				width: 20%;
+				min-height: 70px;
+				max-height: 100px;
+
+				padding: 1% 1% 1% 1%;
+
+				border: 1px solid #f0c;
+			}
+				.rpgcEngine_dialogBox img:nth-child(odd){
+					float: left;
+				}
+				.rpgcEngine_dialogBox img:nth-child(even){
+					float: right;
+				}
+			.dialogCol, label.characterName{
+				width: 75%;
+				min-height: 1%;
+				margin-left: 2%;
+				line-height: 1.4em;
+				font-weight: bold;
+				font-size: 1em;
+			}
+				label.characterName{
+					font-weight: bold;
+					font-size: 110%;
+					color: #6b3c28;
+				}
+
+/*--- SCENE OBJ/CHAR POS ---*/
+#PrincesOvelia{
+	position: absolute;
+	top: 46%;
+	left: 73%;
+}
+#Priest_001{
+	position: absolute;
+	top: 41%;
+	left: 60%;
+}
+#Agrias{
+	position: absolute;
+
+	top: 47%;
+	left: 40%;
+	width: 9%;
+	height: 16%;
+}
+#Gaffgarion{
+	position: absolute;
+	top: 38%;
+	left: 27%;
+	width: 9%;
+	height: 16%;
+}
+
+div [character='characterId_11']{
+	background-color: #ccf;
+}
+/*--------------------------*/
+
+
+
+
+
+
+
+

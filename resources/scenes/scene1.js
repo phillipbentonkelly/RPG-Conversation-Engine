@@ -8,7 +8,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -23,7 +23,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -38,7 +38,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -53,7 +53,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -68,7 +68,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -83,7 +83,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -98,7 +98,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -113,7 +113,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -128,7 +128,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -143,7 +143,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -158,7 +158,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -173,7 +173,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -188,7 +188,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -203,7 +203,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -218,7 +218,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -233,7 +233,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -248,7 +248,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -263,7 +263,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -278,7 +278,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -293,7 +293,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -308,7 +308,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -323,7 +323,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",
@@ -338,7 +338,7 @@ var scene1 = {
             "onFinish": {
                 "type": "userEvent",
                 "advance": true,
-                "delay": 2000
+                "delay": 1000
             },
             "positionOverride": {
                 "top": "",

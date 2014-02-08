@@ -36,8 +36,6 @@ var RPGcEngine = {};
 			this.scriptCurrTurn += 1;
 
 			if(this.scriptCurrTurn <= this.config.scriptContent.dialog.length){
-				//console.log(scriptDataObj);
-
 				this.targetObj = $(thisRef.stage);
 				thisRef.createSpeechBubble( scriptDataObj );
 			}
@@ -64,8 +62,6 @@ var RPGcEngine = {};
 			}else{
 
 			}
-			//console.log(this.currDialogInfo.position);
-
 
 				ui.profile.attr('src', '');
 
@@ -122,7 +118,7 @@ var RPGcEngine = {};
 			arrowObj.css('margin-left', (Math.round(targetCharObj.offset().left))-Math.round(mainContainer.offset().left)+13);
 
 			mainContainer.css('width', mainContainer.width());
-			mainContainer.css('height', mainContainer.height());
+			mainContainer.css('min-height', mainContainer.height());
 
 			/* Rewrite the content setting it to empty. After this is set you can start printing 
 			it to the area (one letter/word) */
@@ -193,14 +189,14 @@ var RPGcEngine = {};
 
 			targetObj.animate({
 				opacity: 0
-			}, 400, function(){
+			}, 200, function(){
 				targetObj.remove().promise().done(function(){
 					if(advance == true){
 						thisRef.playScript();
 					}
 					
 				});
-			});/**/
+			});
 		}
 	};
 
@@ -210,8 +206,6 @@ var RPGcEngine = {};
 
         this.sceneCanvas = sceneCanvas;
         this.sceneCanvasObj = $(this.sceneCanvas);
-
-        /*console.log(this);*/
 	};
 
 	RPGcEngine.SceneUI.prototype = {
