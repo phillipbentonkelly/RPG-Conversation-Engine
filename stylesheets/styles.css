@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);*/
 
 body {
   padding:50px;
@@ -41,12 +41,13 @@ a {
 a small {
   font-size:11px;
   color:#777;
-  margin-top:-0.6em;
+  margin-top:-0.4em;
   display:block;
 }
 
 .wrapper {
-  width:860px;
+  /*width: 860px;*/
+  width: 944px;
   margin:0 auto;
 }
 
@@ -69,6 +70,7 @@ pre {
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
+  margin-top: 10px;
 }
 
 table {
@@ -129,12 +131,12 @@ header li {
 }
 
 header ul a {
-  line-height:1;
+  line-height:16px;
   font-size:11px;
   color:#999;
   display:block;
   text-align:center;
-  padding-top:6px;
+  padding-top:3px;
   height:40px;
 }
 
@@ -160,10 +162,21 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  /*width:500px;*/
+  width: 647px;
   float:right;
   padding-bottom:50px;
 }
+  section ol{
+    padding-left: 20px;
+  }
+    section ol li{
+      padding-bottom: 10px;
+    }
+  section h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
 small {
   font-size:11px;
