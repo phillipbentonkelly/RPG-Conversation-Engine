@@ -127,3 +127,10 @@ div [character='characterId_11']{
 	background-color: #ccf;
 }
 /*--------------------------*/
+
+
+@media print, screen and (max-width: 720px) {
+	#stage{
+		display: none;
+	}
+}
